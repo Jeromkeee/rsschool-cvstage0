@@ -74,7 +74,7 @@ header {
     background-color: #333;
 }
 .column {
-    padding: 0px 0px 40px 0px;
+    padding: 0px 0px 20px 0px;
 }
 
 /* Contact*/
@@ -125,7 +125,7 @@ header {
 }
 
 .section {
-    margin: 125px 80px 125px 60px;
+    margin: 100px 80px 60px 60px;
   }
 .main-title {
     margin: 0;
@@ -141,3 +141,24 @@ header {
     line-height: 50px;
     font-weight: 300;
 }
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    padding: 20px 60px 20px 60px;
+    color: white;
+    background-color: #222;
+  }
+  .footer-github {
+    color: white;
+    position: relative;
+    padding-left: 40px;
+  }
+  .footer-year {
+    justify-self: center;
+  }
+  .footer-rsschool {
+    justify-self: end;
+    height: 32px;
+  }
+
