@@ -68,12 +68,14 @@ header {
 }
 .figure {
     margin: 0;
-    padding: 0;
+    padding: 0 0 30px 0;
     width: 100%;
     height: min-content;
     background-color: #333;
 }
-
+.column {
+    padding: 0px 0px 40px 0px;
+}
 
 /* Contact*/
 .contact-block{
